@@ -14,7 +14,6 @@ header{
     font-family: cursive;
 }
 .about-us img{
-	width:100%;
 	height:60vh;
 }
 .about-us p {
@@ -28,7 +27,6 @@ header{
 	font-weight:400;
 }
 .card img{
-	width:100%;
 	height:250px;
 	object-fit:cover;
 }
@@ -42,15 +40,18 @@ header{
 .carousel-caption h5 {
     font-size: 2rem;
     letter-spacing: 2px;
-    color: #ffb50f;
     word-spacing: 3px;
+    color: #070304;
 }
 
 .carousel-caption p {
-    color: #0fff7a;
     font-size: 1.2rem;
     letter-spacing: 1.6px;
     word-spacing: 2px;
+    color: #612552;
+}
+.carousel-item img {
+    opacity: .6;
 }
 footer{
 	padding:40px;
